@@ -17,5 +17,11 @@
     // Drawing code
 }
 */
+<<<<<<< HEAD
 int a = 11;
+=======
+
+
+int a = 10;
+>>>>>>> 1011f3d6a16a53c72adca9c7f0a9b6912b31c88f
 @end
