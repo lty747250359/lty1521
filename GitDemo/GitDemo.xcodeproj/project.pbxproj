@@ -15,6 +15,7 @@
 		BCE1F3D61CAE50F400AD37D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCE1F3D51CAE50F400AD37D3 /* Images.xcassets */; };
 		BCE1F3D91CAE50F400AD37D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCE1F3D71CAE50F400AD37D3 /* LaunchScreen.xib */; };
 		BCE1F3E51CAE50F400AD37D3 /* GitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1F3E41CAE50F400AD37D3 /* GitDemoTests.m */; };
+		BCE1F3F01CAE551800AD37D3 /* person.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE1F3EF1CAE551800AD37D3 /* person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +43,8 @@
 		BCE1F3DE1CAE50F400AD37D3 /* GitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE1F3E31CAE50F400AD37D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BCE1F3E41CAE50F400AD37D3 /* GitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitDemoTests.m; sourceTree = "<group>"; };
+		BCE1F3EE1CAE551800AD37D3 /* person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = person.h; sourceTree = "<group>"; };
+		BCE1F3EF1CAE551800AD37D3 /* person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +95,8 @@
 				BCE1F3D71CAE50F400AD37D3 /* LaunchScreen.xib */,
 				BCE1F3CC1CAE50F400AD37D3 /* GitDemo.xcdatamodeld */,
 				BCE1F3C51CAE50F400AD37D3 /* Supporting Files */,
+				BCE1F3EE1CAE551800AD37D3 /* person.h */,
+				BCE1F3EF1CAE551800AD37D3 /* person.m */,
 			);
 			path = GitDemo;
 			sourceTree = "<group>";
@@ -223,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCE1F3CB1CAE50F400AD37D3 /* AppDelegate.m in Sources */,
+				BCE1F3F01CAE551800AD37D3 /* person.m in Sources */,
 				BCE1F3CE1CAE50F400AD37D3 /* GitDemo.xcdatamodeld in Sources */,
 				BCE1F3D11CAE50F400AD37D3 /* ViewController.m in Sources */,
 				BCE1F3C81CAE50F400AD37D3 /* main.m in Sources */,
@@ -420,6 +426,7 @@
 				BCE1F3EA1CAE50F400AD37D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BCE1F3EB1CAE50F400AD37D3 /* Build configuration list for PBXNativeTarget "GitDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +435,7 @@
 				BCE1F3ED1CAE50F400AD37D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
